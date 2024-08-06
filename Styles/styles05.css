@@ -106,5 +106,14 @@
 }
 
 @media screen and (max-width: 400px) {
-  
+    .container3{
+        position: absolute;
+        transform: translate(-50%,-50%);
+        top: 298%;
+        left: 59%;
+        width: 400px;
+        overflow: hidden;
+        border-radius: 8px;
+        box-shadow: 10px 25px 30px rgba(30,30,200,0.3);
+    } 
 }
