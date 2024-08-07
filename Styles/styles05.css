@@ -53,6 +53,19 @@
 
 
 /* Media Query */
+@media screen and (max-width: 1300px) {
+    .container3{
+        position: absolute;
+        transform: translate(-50%,-50%);
+        top: 581%;
+        left: 50%;
+        width: 900px;
+        overflow: hidden;
+        border-radius: 8px;
+        box-shadow: 10px 25px 30px rgba(30,30,200,0.3);
+    }
+}
+
 @media screen and (min-width: 700px) and (max-width: 1050px) {
     .container3{
         position: absolute;

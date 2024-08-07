@@ -109,6 +109,16 @@
 
 
 /* Media Query */
+@media screen and (max-width: 1300px) {
+    .logo{
+        display: flex;
+        flex-direction: row;
+        margin-left: 700px;
+       
+    }
+}
+
+
 @media screen and (min-width: 700px) and (max-width: 1050px) {
     .maincontainer{
         width: 915px;
