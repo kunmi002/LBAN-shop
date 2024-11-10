@@ -64,6 +64,16 @@
     margin-left: 4rem;
 }
 
+.hi3 i{
+    font-size: 40px;
+    color: black;
+}
+
+.h1 a{
+    text-decoration: none;
+    color: black;
+}
+
 .div3{
     display: flex;
     flex-direction: row;

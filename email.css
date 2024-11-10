@@ -1,0 +1,317 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+.maincontainer {
+   background-color: rgba(223, 215, 215, 0.767);
+   width: 100%;
+}
+
+.subcontainer{
+  display: flex;
+  flex-direction: row;
+}
+
+.frame{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+}
+
+.frame2{
+    display: flex;
+    flex-direction: row;
+    background-color:#262626;
+    color: white;
+    height: 2rem;
+    padding-top: 10px;
+    margin: 0;
+}
+
+.h2{
+    margin-left: 2rem;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    margin-left: 50rem;
+}
+
+.hot{
+     margin-right: 3rem;
+}
+
+.eng{
+    display: flex;
+    flex-direction: row;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-left: 30px;
+  
+}
+
+.nav h5{
+    margin-left: 3rem;
+}
+
+.h1 a{
+    text-decoration: none;
+    color: black;
+}
+
+.hi{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+    margin-left: 4rem;
+    margin-bottom: 3rem;
+}
+
+.first-item{
+    display: flex;
+    flex-direction: row;
+}
+
+.primaryLink ul {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    background-color: white;
+    padding-left: 1rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    height: 33rem;
+  }
+
+  .primaryLink li {
+    padding-top: 2.5rem;
+    width: 100%;
+    height: 3rem;
+    padding-right: 1rem;
+  }
+
+
+
+  .primaryLink a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+  }
+  .primaryLink i {
+    margin-right: 2rem;
+  }
+
+  .SETTINGS {
+    width: 9rem;
+    color: rgb(248, 3, 3);
+    border-bottom: 1px solid rgb(228, 223, 223);
+  }
+
+.Profile  {
+  transition: color 0.15s;
+}
+
+.Profile:hover{
+  color: rgb(180, 0, 0)
+}
+.Inbox {
+  transition: color 0.15s;
+}
+
+.Inbox:hover{
+  color: rgb(180, 0, 0)
+}
+.Account  {
+  transition: color 0.15s;
+}
+
+.Account:hover{
+  color: rgb(180, 0, 0)
+}
+.Payment {
+  transition: color 0.15s;
+}
+
+.Payment:hover{
+  color: rgb(180, 0, 0)
+}
+.Orders  {
+  transition: color 0.15s;
+}
+
+.Orders:hover{
+  color: rgb(180, 0, 0)
+}
+.Wallet  {
+  transition: color 0.15s;
+}
+
+.Wallet:hover{
+  color: rgb(180, 0, 0)
+}
+.Addresses  {
+  transition: color 0.15s;
+}
+
+.Addresses:hover{
+  color: rgb(180, 0, 0)
+}
+.Support  {
+  transition: color 0.15s;
+}
+
+.Support:hover{
+  color: rgb(180, 0, 0)
+}
+
+.center-item{
+    width: 60rem;
+    background-color: white;
+    height: 33rem;
+    margin-top: 2rem;
+    margin-left: 5rem;
+    padding-left: 2rem;
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: row;
+  }
+
+.p{
+    font-size: 2rem;
+    color:  rgb(85, 151, 226);
+    margin-bottom: 2rem;
+}
+
+.center-item a{
+
+    text-decoration: none;
+    color: #423e3e;
+    background-color: #c4bdbd;
+    align-items: center;
+    justify-content: center;
+}
+
+.pn{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 4.8rem;
+}
+
+.pn:hover{
+  color: rgb(180, 0, 0)
+}
+
+.e{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 9rem;
+}
+
+.e:hover{
+  color: rgb(180, 0, 0)
+}
+
+.psw{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 10.5rem;
+}
+
+.psw:hover{
+  color: rgb(180, 0, 0)
+}
+
+.bs{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 10.7rem;
+}
+
+.bs:hover{
+  color: rgb(180, 0, 0)
+}
+
+.psn{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 13.5rem;
+}
+
+.psn:hover{
+  color: rgb(180, 0, 0)
+}
+
+.da{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 12rem;
+}
+
+.da:hover{
+  color: rgb(180, 0, 0)
+}
+
+.center-item div{
+    margin-bottom: 3rem;
+}
+
+.ci{
+    width: 20rem;
+    height: 30rem;
+    border-right: 1px solid black;
+}
+
+.right-item{
+    display: flex;
+    flex-direction: row;
+    margin-left: 5rem;
+    font-size: larger;
+  }
+  
+  .number{
+    margin-top: 2rem;
+    margin-bottom: 7rem;
+  }
+  
+  .p-number{
+    font-size: small;
+  }
+  
+  .right-item input{
+    padding-right: 5rem;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+  }
+  
+  .right-item button{
+    background-color: rgb(180, 0, 0);
+    color: white;
+    margin-top: 10rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 9rem;
+    padding-right: 9rem;
+    border: none;
+  }
+  
+  .footer img{
+    width: 84.1rem;
+  } 
