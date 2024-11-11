@@ -1,0 +1,139 @@
+.topdeals{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin-top: 3rem;
+   
+}
+
+.topdeals h5{
+    display: flex;
+    flex-direction: row;
+}
+
+.g76{
+    margin-top: 3rem;
+}
+
+.top2{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.veggies{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 3rem;
+    justify-content: center;
+}
+
+.veggies img{
+    margin-right: 0.5rem    
+}
+
+.oil{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20rem;
+    justify-content: center;
+}
+
+.oil img{
+    margin-right: 0.5rem;
+}
+
+
+/* Media Query */
+@media screen and (min-width: 700px) and (max-width: 1050px) {
+    .imgcontainer img{
+        width: 225px;
+    }
+    .s9{
+        width: 500px;
+    }
+
+    .f53{
+        width: 200px;
+    }
+
+    .f54{
+        width: 200px;
+    }
+
+    .top2 img{
+        width: 225px;
+    }
+
+    .oil{
+        margin-bottom: 20rem;
+    }
+  
+    .oil img{
+    width: 225px;
+  }
+
+  .v2{
+    width: 500px;
+  }
+
+  .v3{
+    width: 200px;
+  }
+
+  .v4{
+    width: 200px;
+  }
+
+  .g76 img{
+    width: 915px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+    .imgcontainer img{
+        width: 90px;
+    }
+    .s9{
+        width: 200px;
+    }
+
+    .f53{
+        width: 100px;
+    }
+
+    .f54{
+        width: 100px;
+    }
+
+    .top2 img{
+        width: 90px;
+    }
+
+    .oil{
+        margin-bottom: 10rem;
+    }
+  
+    .oil img{
+    width: 100px;
+  }
+
+  .v2{
+    width: 200px;
+  }
+
+  .v3{
+    width: 100px;
+  }
+
+  .v4{
+    width: 100px;
+  }
+
+  .g76 img{
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+
+}
